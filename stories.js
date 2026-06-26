@@ -6,7 +6,7 @@ window.pageContent = {
   },
 
   productDescription:
-    "I enjoy taking people and ideas from concept to reality. Whether that is a musical idea, a product, a team or a business, I get the most satisfaction from helping people succeed and watching something grow. My style is practical, people-first and commercially grounded: build trust, simplify the problem, create momentum and keep the focus on outcomes that matter./n/nSupport other people to get you there - you can't do it alone",
+    "I enjoy taking people and ideas from concept to reality. Whether that is a musical idea, a product, a team or a business, I get the most satisfaction from helping people succeed and watching something grow.\n\nMy style is practical, people-first and commercially grounded: build trust, simplify the problem, create momentum and keep the focus on outcomes that matter.\n\nSupport other people to get you there - you can't do it alone.",
 
   stories: [
     {
