@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Andy Product Page v2 - a premium single-page executive introduction." />
+  <title>Andy Product Page v2</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <div class="progress-indicator" aria-hidden="true">
+    <div class="progress-indicator__bar" id="progressBar"></div>
+  </div>
+
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a href="#hero" class="brand" aria-label="Andy Product Page home">Andy</a>
+
+      <nav class="main-nav" aria-label="Primary">
+        <a href="#story-panel">Story</a>
+        <a href="#specifications">Specifications</a>
+        <a href="#guide">About Andy</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="ghost-button" id="themeToggle" type="button" aria-label="Toggle dark mode">Theme</button>
+        <button class="ghost-button" id="presentationToggle" type="button" aria-label="Toggle presentation mode">Present</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="hero section" id="hero" aria-labelledby="heroTitle">
+      <div class="container hero-grid">
+        <aside class="gallery-panel" aria-label="Image gallery">
+          <div class="gallery-thumbs" id="galleryThumbs" role="tablist" aria-label="Story image thumbnails">
+          </div>
+        </aside>
+
+        <div class="hero-media-panel">
+          <div class="hero-media-frame">
+            <img id="heroImage" class="hero-image" src="" alt="" loading="eager" />
+          </div>
+        </div>
+
+        <div class="hero-content">
+          <p class="eyebrow" id="heroCategory"></p>
+          <h1 id="heroTitle" class="hero-title"></h1>
+
+          <div class="hero-actions">
+            <a href="#guide" class="secondary-button" id="secondaryCta"></a>
+          </div>
+
+          <div class="story-cluster" id="story-panel" tabindex="-1">
+            <article class="story-preview tone-surface transition-panel">
+              <p class="story-label">Current Chapter</p>
+              <h2 class="story-title" id="storyTitle"></h2>
+              <p class="story-subtitle" id="storySubtitle"></p>
+              <div class="story-copy" id="storyCopy"></div>
+            </article>
+
+            <blockquote class="story-quote tone-surface transition-panel" aria-live="polite">
+              <p class="story-quote__text" id="storyQuoteText"></p>
+              <footer class="story-quote__footer" id="storyQuoteAttribution"></footer>
+            </blockquote>
+
+          </div>
+
+          <div class="hero-features" id="heroFeatures" aria-label="Operating modes"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--narrow" id="description" aria-labelledby="descriptionTitle">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Product Description</p>
+          <h2 id="descriptionTitle">Built for meaningful work, designed for trust.</h2>
+        </div>
+        <p class="lead-text" id="productDescription"></p>
+      </div>
+    </section>
+
+    <section class="section" id="guide" aria-labelledby="guideTitle">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">About Andy</p>
+          <h2 id="guideTitle">User Manual &amp; FAQ</h2>
+        </div>
+
+        <div class="tab-bar" role="tablist" aria-label="Guide sections">
+          <button class="tab-btn is-active" role="tab" aria-selected="true"
+            aria-controls="tab-panel-manual" id="tab-manual">User Manual</button>
+          <button class="tab-btn" role="tab" aria-selected="false"
+            aria-controls="tab-panel-faq" id="tab-faq">FAQ</button>
+        </div>
+
+        <div class="tab-panel" id="tab-panel-manual" role="tabpanel" aria-labelledby="tab-manual">
+          <div class="accordion-group" id="manualAccordion"></div>
+        </div>
+
+        <div class="tab-panel" id="tab-panel-faq" role="tabpanel" aria-labelledby="tab-faq" hidden>
+          <div class="accordion-group" id="faqAccordion"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--narrow" id="specifications" aria-labelledby="specificationsTitle">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Specifications</p>
+          <h2 id="specificationsTitle">Core details, plainly stated.</h2>
+        </div>
+
+        <div class="table-wrap tone-surface">
+          <table class="spec-table">
+            <caption class="sr-only">Andy product specifications</caption>
+            <tbody id="specTableBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--narrow" id="together" aria-labelledby="togetherTitle">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Frequently Bought Together</p>
+          <h2 id="togetherTitle">The things that tend to show up in the same room.</h2>
+        </div>
+        <div class="circle-card-grid" id="togetherGrid"></div>
+      </div>
+    </section>
+
+    <section class="dream-banner" id="dream-destination" aria-labelledby="dreamTitle">
+      <div class="dream-banner__image-wrap">
+        <img src="assets/images/dream-destination.jpg" alt="Namibia, South Africa and Mauritius — safari, vineyards, waterfalls and beach" class="dream-banner__image" />
+      </div>
+      <div class="dream-banner__overlay">
+        <div class="dream-banner__content">
+          <p class="eyebrow dream-banner__eyebrow">Bucket List</p>
+          <h2 id="dreamTitle" class="dream-banner__title">Namibia → South Africa → Mauritius</h2>
+          <p class="dream-banner__copy">Safari at dawn. Whales off the Cape. Wine in the vineyards. A few days on the beach to finish. With family. That's the trip.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <div class="command-palette" id="commandPalette" aria-hidden="true" hidden>
+    <div class="command-palette__overlay" id="commandPaletteOverlay"></div>
+
+    <div class="command-palette__dialog" role="dialog" aria-modal="true" aria-labelledby="commandPaletteTitle">
+      <div class="command-palette__header">
+        <h2 id="commandPaletteTitle">Jump to section</h2>
+        <button class="command-palette__close" id="commandPaletteClose" type="button" aria-label="Close command palette">×</button>
+      </div>
+
+      <label class="sr-only" for="commandSearch">Search sections</label>
+      <input id="commandSearch" class="command-palette__input" type="text" placeholder="Search Family, DJ, Flying, Marketplace, Leadership..." autocomplete="off" />
+
+      <ul class="command-palette__results" id="commandResults" role="listbox" aria-label="Search results"></ul>
+    </div>
+  </div>
+
+  <script src="stories.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
