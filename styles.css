@@ -305,9 +305,9 @@ body.presentation-mode .site-header {
 }
 
 .ghost-button {
-  border: 1px solid var(--border-strong);
-  color: var(--text);
-  background: var(--surface);
+  border: 1px solid var(--orange);
+  color: var(--orange);
+  background: transparent;
 }
 
 .primary-button {
@@ -328,8 +328,9 @@ body.presentation-mode .site-header {
 }
 
 .ghost-button:hover {
-  background: var(--story-tint);
-  border-color: var(--story-accent);
+  background: var(--orange);
+  color: #ffffff;
+  box-shadow: 0 2px 8px rgba(244, 121, 32, 0.30);
 }
 
 .primary-button:hover {
