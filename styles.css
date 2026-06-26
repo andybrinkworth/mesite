@@ -777,12 +777,12 @@ body.dark-mode .tone-surface {
   gap: 8px;
   padding: 9px 12px;
   border-radius: var(--radius-sm);
-  border: 1px solid var(--border);
+  border: 1px solid rgba(0, 90, 112, 0.3);
   border-left: 3px solid #005a70;
-  background: var(--surface);
+  background: rgba(0, 90, 112, 0.05);
   font-size: 0.8rem;
   font-weight: 600;
-  color: var(--text-soft);
+  color: #005a70;
   text-align: left;
   cursor: default;
   transition:
@@ -799,8 +799,9 @@ body.dark-mode .tone-surface {
 .feature-tile.is-active {
   border-color: #005a70;
   border-left-color: #005a70;
-  background: rgba(0, 90, 112, 0.08);
+  background: rgba(0, 90, 112, 0.15);
   color: #005a70;
+  box-shadow: 0 0 0 1px rgba(0, 90, 112, 0.2);
 }
 
 /* ── Features (standalone section — kept for reference) ─────── */

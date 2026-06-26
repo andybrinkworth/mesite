@@ -249,28 +249,28 @@ window.pageContent = {
     {
       id: "family-mode",
       icon: "⌂",
-      title: "Family Chapter",
+      title: "Family",
       description:
         "Grounded, loyal and values-led. Brings perspective, steadiness and a strong sense of what really matters."
     },
     {
       id: "build-mode",
       icon: "⬢",
-      title: "Build Chapter",
+      title: "Build",
       description:
         "Turns ambiguity into momentum. Comfortable moving from concept to action with clear standards."
     },
     {
       id: "support-mode",
       icon: "✦",
-      title: "Support Chapter",
+      title: "Support",
       description:
         "Creates trust, develops people and keeps the temperature productive even when stakes are high."
     },
     {
       id: "adventure-mode",
       icon: "△",
-      title: "Adventure Chapter",
+      title: "Adventure",
       description:
         "Curious, energetic and open to new terrain. Brings freshness without losing focus."
     },
