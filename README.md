@@ -12,6 +12,7 @@ This v2 release introduces **Story Mode**: selecting a story reconfigures the pa
 - No frameworks
 - No dependencies
 - No build process
+- Deployed via GH Pages
 
 Open `index.html` in a browser and it will run locally.
 
