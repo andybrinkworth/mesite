@@ -778,6 +778,7 @@ body.dark-mode .tone-surface {
   padding: 9px 12px;
   border-radius: var(--radius-sm);
   border: 1px solid var(--border);
+  border-left: 3px solid #005a70;
   background: var(--surface);
   font-size: 0.8rem;
   font-weight: 600;
@@ -796,9 +797,10 @@ body.dark-mode .tone-surface {
 }
 
 .feature-tile.is-active {
-  border-color: var(--story-accent);
-  background: var(--story-tint);
-  color: var(--story-accent);
+  border-color: #005a70;
+  border-left-color: #005a70;
+  background: rgba(0, 90, 112, 0.08);
+  color: #005a70;
 }
 
 /* ── Features (standalone section — kept for reference) ─────── */

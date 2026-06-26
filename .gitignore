@@ -1,3 +1,4 @@
 .DS_Store
 deploy.command
+force-deploy.command
 .deploy-token
