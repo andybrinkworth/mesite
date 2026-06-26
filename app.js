@@ -87,10 +87,7 @@ function renderHero() {
   elements.heroCategory.textContent         = hero.category;
   elements.heroTitle.textContent            = hero.title;
   elements.secondaryCta.textContent         = hero.secondaryButton;
-  elements.productDescription.innerHTML = content.productDescription
-    .split("\n\n")
-    .map((para) => `<p>${para.trim()}</p>`)
-    .join("");
+  elements.productDescription.textContent   = content.productDescription;
 }
 
 /* Animate hero actions row and story cluster in on first load */
